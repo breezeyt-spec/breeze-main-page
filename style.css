@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #333;
+   }
+   
+   header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+   }
+   
+   header img {
+    margin-right: 20px;
+    border-radius: 50%;
+   }
+   
+   .title {
+    font-size: 36px;
+    flex: 1;
+    text-align: center;
+   }
+   
+   header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+   }
+   
+   header nav ul li {
+    margin-right: 20px;
+   }
+   
+   .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #777;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    text-decoration: none;
+   }
+   
+   .button:hover {
+    background-color: #888;
+   }
+   
+   .youtube {
+    background-color: #FF0000;
+   }
+   
+   .youtube:hover {
+    background-color: #CC0000;
+   }
+   
+   .tiktok {
+    background-color: #7A0BC0;
+   }
+   
+   .tiktok:hover {
+    background-color: #5c0099;
+   }
+   
+   .discord {
+    background-color: #0d6efd;
+   }
+   
+   .discord:hover {
+    background-color: #0479fb;
+   }
+   
+   main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+   }
